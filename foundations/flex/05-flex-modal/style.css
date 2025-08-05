@@ -18,6 +18,9 @@ body {
 .header {
   font-weight: bold;
   font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .info {
@@ -32,8 +35,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  padding: 13px;
-  gap: 10px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -83,7 +86,9 @@ button.cancel {
   color: royalblue;
 }
 
+/*DELETED:
 .buttons {
   display: flex;
   gap: 5px;
 }
+*/
